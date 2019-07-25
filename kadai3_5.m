@@ -20,15 +20,11 @@ ORG= rgb2gray(ORG); % ƒJƒ‰[‰æ‘œ‚ð”’•”Z’W‰æ‘œ‚Ö•ÏŠ·
 
 imagesc(ORG); colormap(gray); colorbar; % ‰æ‘œ‚Ì•\Ž¦
 
-pause;
-
 
 
 IMG = ORG > 64; % ‹P“x’l‚ª64ˆÈã‚Ì‰æ‘f‚ð1C‚»‚Ì‘¼‚ð0‚É•ÏŠ·
 
 imagesc(IMG); colormap(gray); colorbar;
-
-pause;
 
 
 
@@ -36,16 +32,12 @@ IMG = ORG > 96;
 
 imagesc(IMG); colormap(gray); colorbar;
 
-pause;
 
 
 
 IMG = ORG > 128;
 
 imagesc(IMG); colormap(gray); colorbar;
-
-pause;
-
 
 
 IMG = ORG > 192;

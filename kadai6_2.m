@@ -16,7 +16,6 @@ ORG = rgb2gray(ORG);
 
 imagesc(ORG); colormap(gray); colorbar; % ‰æ‘œ‚Ì•\Ž¦
 
-pause; % ˆêŽž’âŽ~
 
 
 

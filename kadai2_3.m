@@ -27,6 +27,8 @@ IMG = ORG>128;
 
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
+pause;
+
 
 
 % ‚SŠK’²‰æ‘œ‚Ì¶¬
